@@ -1,0 +1,45 @@
+.explore-page {
+    font-size: 2.6rem;
+    color: var(--white);
+    background-color: var(--black);
+    height: 20rem;
+    padding: 0 4rem;
+    position: relative;
+}
+
+.explore-page__title {
+    padding-top: 5rem;
+}
+
+.genres-list {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.genre-item {
+    padding: 0.5rem 2rem;
+}
+
+.genre-link {
+    color: var(--white);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.genre-link:hover{
+    color: var(--yellow);
+}
+
+.active-genre {
+    background-color: var(--white);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.active-genre>.genre-link {
+    color: var(--black);
+}

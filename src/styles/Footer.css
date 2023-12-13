@@ -1,0 +1,61 @@
+.footer {
+    color: var(--white);
+    background-color: var(--black);
+    margin-top: 4rem;
+    padding: 0 4rem;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.36rem;
+    padding-top: 2rem;
+}
+
+.social-link {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    transition: all 0.2s;
+    padding: 0.5rem;
+}
+
+.social-link:hover {
+    transform: scale(1.15);
+}
+
+.social-icon {
+    width: 100%;
+}
+
+
+.companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    margin-top: 2rem;
+}
+
+.company-img {
+    max-width: 8rem;
+}
+
+.copyright {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+@media (width <= 768px) {
+    .company-img{
+        max-width: 5rem;
+    }
+}
+
+@media (width <= 412px) {
+    .company-img{
+        max-width: 3rem;
+    }
+}

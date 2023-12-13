@@ -1,0 +1,145 @@
+.carousel {
+    width: 100%;
+    position: relative;
+}
+
+.carousel>ul {
+    width: 100%;
+    padding: 0;
+    display: flex;
+
+    transform: translateX(00%);
+    transition: transform 0.75s;
+}
+
+.handle-direction {
+    position: absolute;
+    top: calc(50% - 1.5rem*2);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1;
+
+    border-radius: 50%;
+    border: 2px solid var(--white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    background-color: var(--white);
+    width: 5rem;
+    height: 5rem;
+    transition: all 0.2s;
+}
+
+.handle-direction:hover {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    transform: scale(1.2);
+}
+
+.handle-direction--left {
+    left: 0;
+}
+
+.handle-direction--right {
+    right: 0;
+}
+
+.handle-direction__img {
+    width: 100%;
+}
+
+/*---Card---*/
+
+.card {
+    max-width: calc(100% / var(--items-per-slide));
+    flex: 0 0 calc(100% / var(--items-per-slide));
+    padding: 0.75rem;
+    list-style-type: none;
+}
+
+.card__header-area {
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+}
+
+.header-area__img {
+    transition: all 0.5s;
+}
+
+.header-area__img:hover {
+    transform: scale(1.2);
+}
+
+.card__title {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+@media(992px < width < 1200px) {
+    :root {
+        --items-per-slide: 5;
+    }
+}
+
+@media(768px < width <=992px) {
+    :root {
+        --items-per-slide: 4;
+    }
+}
+
+@media(550px < width <=768px) {
+    :root {
+        --items-per-slide: 3;
+    }
+}
+
+@media(450px < width <=550px) {
+    :root {
+        --items-per-slide: 2;
+    }
+}
+
+@media(width <=450px) {
+    :root {
+        --items-per-slide: 1;
+    }
+}
+
+/*---Category---*/
+.category {
+    margin: 4rem;
+}
+
+.category__card-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.category__title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.category__link {
+    font-size: 1.6rem;
+    color: var(--ice-flow);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.category__link:hover {
+    color: var(--black);
+}
+
+@media (width <=412px) {
+    .category__title {
+        font-size: 2.5rem;
+    }
+}

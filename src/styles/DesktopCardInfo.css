@@ -1,0 +1,89 @@
+/*---Card-info---*/
+.card-info {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.card-info__fade--bottom {
+    width: 100%;
+    height: 7.5rem;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.6), var(--black));
+}
+
+.card-info__fade--left {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(270deg, transparent, var(--black) 100%);
+}
+
+.details {
+    width: 33.3%;
+    margin-left: 4rem;
+    z-index: 2;
+}
+
+.details__title {
+    color: var(--white);
+    font-size: 3rem;
+}
+
+.details__info {
+    display: flex;
+    gap: 0.4rem;
+    color: var(--ice-flow);
+    margin-top: 1.4rem;
+}
+
+.details__info>h6 {
+    font-size: 1.4rem;
+}
+
+.details__genre-btns {
+    margin-top: 1.4rem;
+    display: flex;
+    gap: 0.8rem;
+}
+
+.details__poster-card {
+    min-width: 20rem;
+    margin-top: 1.4rem;
+}
+
+.details__overview {
+    min-width: 20rem;
+    color: var(--white);
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+}
+
+.poster-card__img {
+    width: 100%;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.4rem;
+    gap: 1rem;
+}
+
+.rating__star {
+    width: 3rem;
+}
+
+.rating__vote-average {
+    color: var(--white);
+}
+
+.rating__vote-count {
+    color: var(--ice-flow);
+    text-align: center;
+    margin-top: 0.5rem;
+}
