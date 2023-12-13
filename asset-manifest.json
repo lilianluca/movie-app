@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/movie-app/static/css/main.a6b9168e.css",
+    "main.js": "/movie-app/static/js/main.292d4dce.js",
+    "static/js/787.90f0e5dd.chunk.js": "/movie-app/static/js/787.90f0e5dd.chunk.js",
+    "static/media/hero-bg.jpg": "/movie-app/static/media/hero-bg.3c83718adc007efdc3db.jpg",
+    "static/media/learn-more-2.webp": "/movie-app/static/media/learn-more-2.269ce413b77daa20a1a7.webp",
+    "static/media/learn-more-1.webp": "/movie-app/static/media/learn-more-1.0bf79fef277dbbfa1b0f.webp",
+    "static/media/warnerbros.png": "/movie-app/static/media/warnerbros.8935f24f7eb7e48a755a.png",
+    "static/media/learn-more-4.jpg": "/movie-app/static/media/learn-more-4.73f44cb7940495d6248b.jpg",
+    "static/media/walt-disney-pictures.png": "/movie-app/static/media/walt-disney-pictures.bd512ed1f617a394a77d.png",
+    "static/media/learn-more-3.jpg": "/movie-app/static/media/learn-more-3.323096a2178c1dd5b185.jpg",
+    "static/media/dreamworks.png": "/movie-app/static/media/dreamworks.c955cc1be6228e06423c.png",
+    "static/media/paramount-pictures.png": "/movie-app/static/media/paramount-pictures.cacd255ef897be7679d6.png",
+    "static/media/columbia-pictures.png": "/movie-app/static/media/columbia-pictures.9e7678c1d58343bbf736.png",
+    "index.html": "/movie-app/index.html",
+    "main.a6b9168e.css.map": "/movie-app/static/css/main.a6b9168e.css.map",
+    "main.292d4dce.js.map": "/movie-app/static/js/main.292d4dce.js.map",
+    "787.90f0e5dd.chunk.js.map": "/movie-app/static/js/787.90f0e5dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6b9168e.css",
+    "static/js/main.292d4dce.js"
+  ]
+}
